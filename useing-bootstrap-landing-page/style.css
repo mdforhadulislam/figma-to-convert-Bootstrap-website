@@ -1,0 +1,178 @@
+/* header style  */
+header {
+  background: linear-gradient(
+    /* 130deg,
+    rgb(255, 177, 131),
+    rgb(255, 229, 208),
+    rgb(255, 244, 236) */
+      141deg,
+    rgba(255, 205, 160, 1) 0%,
+    rgba(255, 255, 255, 1) 59%,
+    rgba(255, 255, 255, 1) 59%,
+    #ffe8d4
+  );
+}
+header .left h1 {
+  font-size: 55px;
+  font-weight: 700;
+  color: #f78431;
+}
+header .right {
+  display: inline-flex;
+  align-items: center;
+}
+
+header .right nav {
+  width: 385px;
+  margin: auto;
+}
+
+header .right ul li a {
+  font-size: 18px;
+}
+
+header .header-left article h1::first-line {
+  font-size: 60px;
+  font-weight: 400;
+  color: rgb(0, 0, 0);
+}
+header .header-left article h1 {
+  font-size: 60px;
+  font-weight: 700;
+  color: #f78431;
+}
+header .header-left .search-box {
+  width: 330px;
+}
+
+header .header-left .search-box form {
+  width: 100%;
+  padding: 10px;
+  background-color: white;
+  text-align: center;
+  border-radius: 30px;
+  box-shadow: 0px 0px 10px rgb(131, 131, 131);
+}
+header .header-left .search-box input {
+  background-color: none;
+  outline: none;
+  border: none;
+  width: 200px;
+}
+
+header .header-left .search-box form button {
+  padding: 5px 25px;
+  color: white;
+  height: 35px;
+  background-color: coral;
+  border-radius: 30px;
+}
+header .claints-companies-log {
+}
+header .claints-companies-log .airbnbLogo {
+}
+header .claints-companies-log .airbnbLogo button {
+  background-color: white;
+  border-radius: 30px;
+  padding: 10px;
+  margin: 10px auto;
+  box-shadow: 0px 0px 10px rgb(107, 107, 107);
+}
+header .claints-companies-log .airbnbLogo img {
+  width: 100px;
+  height: 25px;
+}
+header .claints-companies-log .dropboxLogo {
+}
+header .claints-companies-log .dropboxLogo button {
+  background-color: white;
+  border-radius: 30px;
+  padding: 10px;
+  margin: 10px auto;
+  box-shadow: 0px 0px 10px rgb(107, 107, 107);
+}
+header .claints-companies-log .dropboxLogo img {
+  width: 100px;
+  height: 25px;
+}
+
+header .claints-companies-log .microsoft_logo {
+}
+header .claints-companies-log .microsoft_logo button {
+  background-color: white;
+  border-radius: 30px;
+  padding: 10px;
+  margin: 10px auto;
+  box-shadow: 0px 0px 10px rgb(107, 107, 107);
+}
+header .claints-companies-log .microsoft_logo img {
+  width: 100px;
+  height: 26px;
+}
+
+header .claints-companies-log .stripeLogo {
+}
+
+header .claints-companies-log .stripeLogo button {
+  background-color: white;
+  border-radius: 30px;
+  padding: 10px;
+  margin: 10px auto;
+  box-shadow: 0px 0px 10px rgb(107, 107, 107);
+}
+header .claints-companies-log .stripeLogo img {
+  width: 100px;
+  height: 25px;
+}
+
+/* main body style  */
+main {
+  background-color: #ffe8d4;
+}
+
+main .heading {
+  padding: 35px 0px;
+  text-align: center;
+}
+main .heading h1 {
+}
+main .heading span {
+  width: 185px;
+  height: 3px;
+  background: #ff912d;
+  display: block;
+  margin: auto;
+}
+main .card {
+  padding: 45px 0px;
+  box-shadow: 0px 0px 20px #9a9a9a;
+}
+main .card img {
+  width: 100px;
+  margin: auto;
+}
+main .card h1 {
+  font-size: 25px;
+  text-align: center;
+}
+
+/* footer style  */
+footer {
+  background: linear-gradient(
+    /* 130deg,
+    rgb(255, 177, 131),
+    rgb(255, 229, 208),
+    rgb(255, 244, 236) */
+      141deg,
+    #ffe8d4 0%,
+    rgb(255, 252, 248),
+    rgb(255, 252, 248),
+    rgb(255, 252, 248),
+    #ffe8d4
+  );
+}
+footer .footer-left article h1 {
+  font-size: 30px;
+  color: #ff912d;
+  padding: 0px 0px 20px 0px;
+}
